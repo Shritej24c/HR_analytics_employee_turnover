@@ -1,9 +1,9 @@
 # HR_analytics_employee_turnover
  
-Project Overview
+## Project Overview
 This project aims to predict employee turnover using ensemble tree-based methods on a synthetically generated dataset inspired by IBM's workforce metrics. The goal is to help organizations identify key factors that influence employee attrition, enabling them to implement strategies to improve retention rates.
 
-Dataset
+## Dataset
 The dataset features 35 columns including:
 
 Employee demographics (Age, Gender, MaritalStatus)
@@ -11,7 +11,9 @@ Job characteristics (JobRole, JobLevel, Department)
 Work environment factors (BusinessTravel, DistanceFromHome, EnvironmentSatisfaction)
 Employee satisfaction (JobSatisfaction, RelationshipSatisfaction)
 Compensation and work hours (MonthlyIncome, OverTime, StandardHours)
-Tools and Technologies
+
+
+## Tools and Technologies
 Python: Primary programming language
 Pandas & NumPy: Data manipulation
 Seaborn & Plotly: Data visualization
@@ -29,13 +31,14 @@ AUC-ROC: 0.88
 Model Training and Evaluation
 The models were trained using a split of 70% training data and 30% testing data. Model performance was evaluated based on accuracy, precision, recall, F1 score, and AUC-ROC to ensure robustness and reliability.
 
-Installation
+## Installation
 To run this project, install the required libraries using:
 
 bash
 Copy code
 pip install -r requirements.txt
-Usage
+
+## Usage
 Execute the Jupyter notebooks to train the models and visualize the results:
 
 bash
@@ -44,5 +47,5 @@ jupyter notebook Employee_Attrition_Prediction.ipynb
 Contributing
 Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-License
+## License
 Distributed under the MIT License. See LICENSE for more information.
