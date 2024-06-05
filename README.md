@@ -12,6 +12,12 @@ Work environment factors (BusinessTravel, DistanceFromHome, EnvironmentSatisfact
 Employee satisfaction (JobSatisfaction, RelationshipSatisfaction)
 Compensation and work hours (MonthlyIncome, OverTime, StandardHours)
 
+## data visualization
+
+![image](https://github.com/Shritej24c/HR_analytics_employee_turnover/blob/main/images/__results___7_0.png)
+
+![image](https://github.com/Shritej24c/HR_analytics_employee_turnover/blob/main/images/correlation.png)
+
 
 ## Tools and Technologies
 Python: Primary programming language
@@ -33,6 +39,21 @@ AUC-ROC: 0.88
 
 ## Model Training and Evaluation
 The models were trained using a split of 70% training data and 30% testing data. Model performance was evaluated based on accuracy, precision, recall, F1 score, and AUC-ROC to ensure robustness and reliability.
+
+### Feature Importance
+
+Random Forest :
+
+![image](https://github.com/Shritej24c/HR_analytics_employee_turnover/blob/main/images/random_forest_ft_imp.png)
+
+Gradient Boosting:
+
+![image](https://github.com/Shritej24c/HR_analytics_employee_turnover/blob/main/images/GB_feature_imp.png)
+
+
+## Results:
+
+![image](https://github.com/Shritej24c/HR_analytics_employee_turnover/blob/main/images/result.png)
 
 ## Installation
 To run this project, install the required libraries using:
