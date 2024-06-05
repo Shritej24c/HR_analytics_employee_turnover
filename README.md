@@ -19,7 +19,8 @@ Pandas & NumPy: Data manipulation
 Seaborn & Plotly: Data visualization
 Scikit-Learn: Machine learning models
 Jupyter Notebook: Interactive coding environment
-Models Implemented
+
+### Models Implemented
 Random Forest: A robust ensemble method known for its accuracy and ability to rank the importance of features.
 Gradient Boosting Machine (GBM): An ensemble technique that builds models sequentially to minimize errors.
 Key Metrics
@@ -28,7 +29,9 @@ Precision: 80%
 Recall: 78%
 F1 Score: 79%
 AUC-ROC: 0.88
-Model Training and Evaluation
+
+
+## Model Training and Evaluation
 The models were trained using a split of 70% training data and 30% testing data. Model performance was evaluated based on accuracy, precision, recall, F1 score, and AUC-ROC to ensure robustness and reliability.
 
 ## Installation
